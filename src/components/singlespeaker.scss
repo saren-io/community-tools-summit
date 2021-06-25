@@ -1,0 +1,55 @@
+.singlespeaker {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    h3{
+        color: rgb(220,34,116);
+    }
+    p{
+        color: #fafafa;
+    }
+    h2{
+        color: #fafafa;
+    }
+    .ant-row {
+        padding: 20px;
+    }
+    .text {
+        text-align: left;
+        .logoText{
+            display: flex;
+            align-items: center;
+                .logo{
+                    width: 35%;
+                    margin-right: 10px;
+                    filter: invert(1);
+                }
+                h1{
+                    font-size:50px;
+                    font-weight:400;
+                    color: #fafafa;
+            }
+        }
+    }
+    .card{
+        height:100%;
+    }
+    .imgbx{
+        float:right;
+        background-color: white;
+        width:300px;
+        height:100%;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    }
+    .content{
+        background-color: pink;
+        position: relative;
+        height:100%;
+        margin-top: -20px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        margin-right: 20px;
+    }
+}

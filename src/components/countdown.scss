@@ -1,0 +1,16 @@
+.countdown {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    color: #fafafa;
+    h3{
+        color: rgb(220,34,116);
+    }
+    .ant-statistic-content {
+        color: #fafafa;
+        font-size: 60px;
+        letter-spacing: 0.5rem;
+        font-weight: 800;
+    }
+}

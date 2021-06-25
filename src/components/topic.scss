@@ -1,0 +1,42 @@
+.topic {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    h1{
+        font-size:60px;
+        color:#fafafa;
+    }
+    h3{
+        color: rgb(220,34,116);
+    }
+    .ant-card{
+        border-radius: 10px;
+        color: #fafafa;
+        padding: 15px;
+        text-align: left;
+        margin: 20px;
+    }
+    .card1{
+        background: linear-gradient(rgba(241, 132, 179,0.7),rgba(220,34,116,0.7));
+    }
+    .card2{
+        background: linear-gradient(rgba(145, 223, 236,0.7),rgba(10, 158, 196,0.7));
+    }
+    .card3{
+        background: linear-gradient(rgba(123, 156, 226,0.7),rgba(44, 103, 231,0.7));
+    }
+
+    @media only screen and (max-width: 992px) {
+    h1{
+        font-size:60px;
+    }
+    p {
+        font-size: 1.1rem;
+        letter-spacing: 0.8px;
+    }
+    .premium-button{
+        margin: auto;
+    }
+}
+}

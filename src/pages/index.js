@@ -4,6 +4,7 @@ import Banner from "../components/banner"
 import CountDown from "../components/countdown"
 import Topic from "../components/topic"
 import SingleSpeaker from "../components/singlespeaker"
+import MultipleSpeaker from "../components/multipleSpeaker"
 
 const IndexPage = () => (
   <Layout>
@@ -11,6 +12,7 @@ const IndexPage = () => (
     <CountDown/>
     <Topic/>
     <SingleSpeaker/>
+    <MultipleSpeaker/>
   </Layout>
 )
 

@@ -6,34 +6,20 @@ import { BsArrowUpRight } from "react-icons/bs"
 import icon from "../../images/icon.png"
 import logo from "../../images/logos/side_by_side.png"
 
-const ResponsiveNavbar = () => {
+const Navbar = () => {
   return (
-    <div className="responsive-navbar">
+    <div className="navbar">
       <AnchorLink to="/#banner" className="logo">
-        <img src={icon} alt="Saren" />
+        <img src={logo} alt="Saren" />
       </AnchorLink>
       
     </div>
   )
 }
 
-const LargeNavbar = () => {
-  return (
-    <div className="large-navbar">
-      <AnchorLink to="/#banner" className="logo">
-        <img src={logo} alt="Saren" />
-      </AnchorLink>
-      <ul className="links">
-        
-      </ul>
-    </div>
-  )
-}
-
 const Header = () => (
   <header className="container">
-    <ResponsiveNavbar />
-    <LargeNavbar />
+    <Navbar />
   </header>
 )
 

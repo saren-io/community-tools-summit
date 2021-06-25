@@ -1,136 +1,26 @@
 header {
   margin-top:100px;
-  .external{
-
-    span{
-      display: inline-flex;
-      flex-flow: row nowrap;
-      justify-content: flex-start;
-      align-items: center;
-      width: auto;
-      svg{
-        margin-left: 5px;
-      }
-    }
-  }
-
   .logo {
     font-weight: bolder;
     img {
-      height: 28px;
+      height: 40px;
       margin: 0;
     }
     filter: invert(1);
   }
+}
 
-  .large-navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-    font-size: 1rem;
 
+@media screen and (max-width: 992px) {
+  header {
+    margin-top:20px;
     .logo {
-      margin: 0 1rem;
-      font-size: 1.6rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
+      font-weight: bolder;
       img {
         height: 30px;
         margin: 0;
       }
-    }
-  }
-
-  /*Responsive Navbar*/
-
-  .responsive-navbar {
-    background-color: #fff;
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 3;
-
-    a {
-      color: #1e1e1e;
-    }
-
-    li {
-      span {
-        border-bottom: 2px solid black;
-        padding-right: 15px;
-        letter-spacing: 1px;
-      }
-    }
-  }
-
-  .responsive-navbar .logo {
-    display: block;
-    float: left;
-    padding: 16px 20px;
-    text-decoration: none;
-    height: 100%;
-
-    img {
-      margin: 0;
-    }
-  }
-
-  
-  .floating-phone {
-
-    position: fixed !important;
-    bottom: 1rem !important;
-    right: 1rem !important;
-    z-index: 3 !important;
-  }
-
-
-  .floating-phone {
-    font-size: 3rem !important;
-    color: #31e1eb !important;
-
-    -webkit-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
-  }
-
-  .floating-phone:hover {
-    opacity: 0.6;
-  }
-
-  /*Responsive Code*/
-
-  @media screen and (min-width: 992px) {
-    .responsive-navbar {
-      display: none;
-    }
-
-    .responsive-navbar li {
-      float: left;
-    }
-
-    .responsive-navbar li a {
-      padding: 20px 30px;
-    }
-
-    .responsive-navbar .menu {
-      clear: none;
-      float: right;
-      max-height: none;
-    }
-
-    .responsive-navbar .menu-icon {
-      display: none;
-    }
-  }
-
-  @media screen and (max-width: 992px) {
-    .large-navbar {
-      display: none;
+      filter: invert(1);
     }
   }
 }

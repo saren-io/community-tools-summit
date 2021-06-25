@@ -26,17 +26,19 @@
     .card3{
         background: linear-gradient(rgba(123, 156, 226,0.7),rgba(44, 103, 231,0.7));
     }
-
-    @media only screen and (max-width: 992px) {
-    h1{
-        font-size:60px;
-    }
-    p {
-        font-size: 1.1rem;
-        letter-spacing: 0.8px;
-    }
-    .premium-button{
-        margin: auto;
-    }
 }
+@media only screen and (max-width: 992px) {
+    .topic {
+        margin-top: 50px;    
+        h1{
+            font-size:40px;
+        }
+        p {
+            font-size: 1.1rem;
+            letter-spacing: 0.8px;
+        }
+        .premium-button{
+            margin: auto;
+        }
+    }
 }

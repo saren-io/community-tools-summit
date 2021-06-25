@@ -595,6 +595,9 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+  body{
+    background-repeat: repeat;
+  }
 }
 
 .container {
@@ -609,11 +612,17 @@ pre tt:after {
   .container {
     max-width: 540px;
   }
+  body{
+    background-repeat: repeat;
+  }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+  }
+  body{
+    background-repeat: repeat;
   }
 }
 

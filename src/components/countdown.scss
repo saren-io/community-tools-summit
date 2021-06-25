@@ -4,6 +4,7 @@
     text-align: center;
     margin-top: 100px;
     color: #fafafa;
+    
     h3{
         color: rgb(220,34,116);
     }
@@ -12,5 +13,14 @@
         font-size: 60px;
         letter-spacing: 0.5rem;
         font-weight: 800;
+    }
+    
+}
+@media only screen and (max-width: 992px) {
+    .countdown {
+        margin-top: 50px;
+        .ant-statistic-content {
+            font-size: 40px;
+        }
     }
 }

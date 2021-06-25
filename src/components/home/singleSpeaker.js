@@ -1,13 +1,13 @@
 import React from "react"
-import "./singlespeaker.scss"
+import "./singleSpeaker.scss"
 import { Row, Col } from "antd"
-import logo from "../images/logo-letters.png"
-import speakerimage from "../images/nature-1.jpg"
-import PremiumButton from "./misc/premiumButton"
+import logo from "../../images/logo-letters.png"
+import speakerimage from "../../images/nature-1.jpg"
+import PremiumButton from "../misc/premiumButton"
 
 const SingleSpeaker = () => {
     return (
-        <section className="singlespeaker" id="singlespeaker">
+        <section className="singleSpeaker" id="singleSpeaker">
             <div className="container">
                 <Row>
                     <Col lg={12} xs={24}>

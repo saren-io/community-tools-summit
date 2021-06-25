@@ -1,4 +1,4 @@
-.multiplespeaker {
+.multipleSpeaker {
     display: flex;
     align-items: center;
     text-align: center;
@@ -20,7 +20,7 @@
             align-items: center;
             justify-content:center;
                 .logo{
-                    width: 20%;
+                    width: 170px;
                     margin-right: 10px;
                     filter: invert(1);
                 }
@@ -29,6 +29,9 @@
                     font-weight:400;
                     color: #fafafa;
             }@media only screen and (max-width: 992px){
+                .logo{
+                    width: 120px;
+                }
                 h1{
                     font-size:35px;
                 }
@@ -40,7 +43,7 @@
         padding: 20px;
         .card{
             text-align: center;
-            max-width: 400px;
+            max-width: 320px;
             height:350px;
             background: #fff;
             display: flex;
@@ -73,17 +76,22 @@
 }
 
 @media only screen and (max-width: 992px) {
-    .multiplespeaker{
+    .multipleSpeaker{
         margin-top: 50px;
+        h2{
+            font-size: 20px;
+        }
         .text{
             margin-bottom: 20px;
         }
-        .card{
-            height: 300px;
-            width:90%;
-            max-width: 320px;
-            float: none;
-            margin: auto;
+        .cardCol{
+            .card{
+                height: 300px;
+                // width:90%;
+                max-width: 320px;
+                float: none;
+                margin: auto;
+            }
         }
     }
 }

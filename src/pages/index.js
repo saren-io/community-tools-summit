@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout/layout"
-import Banner from "../components/banner"
-import CountDown from "../components/countdown"
-import Topic from "../components/topic"
-import SingleSpeaker from "../components/singlespeaker"
-import MultipleSpeaker from "../components/multipleSpeaker"
+import Banner from "../components/home/banner"
+import CountDown from "../components/home/countdown"
+import Topic from "../components/home/topic"
+import SingleSpeaker from "../components/home/singleSpeaker"
+import MultipleSpeaker from "../components/home/multipleSpeaker"
 
 const IndexPage = () => (
   <Layout>

@@ -1,7 +1,7 @@
 import React from "react"
 import "./banner.scss"
 import { Row, Col } from "antd"
-import PremiumButton from "./misc/premiumButton"
+import PremiumButton from "../misc/premiumButton"
 
 const Banner = () => {
     return (

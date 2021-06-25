@@ -1,4 +1,4 @@
-.singlespeaker {
+.singleSpeaker {
     display: flex;
     align-items: center;
     text-align: center;
@@ -21,7 +21,7 @@
             display: flex;
             align-items: center;
                 .logo{
-                    width: 35%;
+                    width: 170px;
                     margin-right: 10px;
                     filter: invert(1);
                 }
@@ -30,6 +30,10 @@
                     font-weight:400;
                     color: #fafafa;
             }@media only screen and (max-width: 992px){
+                .logo{
+                    width: 120px;
+                }
+
                 h1{
                     font-size:35px;
                 }
@@ -37,7 +41,7 @@
         }
     }
     .card{
-        max-width: 50%;
+        max-width: 320px;
         height:100%;
         background: #fff;
         display: flex;
@@ -72,7 +76,7 @@
 }
 
 @media only screen and (max-width: 992px) {
-    .singlespeaker{
+    .singleSpeaker{
         margin-top: 50px;
         .text{
             margin-bottom: 20px;

@@ -1,12 +1,12 @@
 import React from "react"
 import "./multipleSpeaker.scss"
 import { Row, Col } from "antd"
-import logo from "../images/logo-letters.png"
-import speakerimage from "../images/nature-1.jpg"
+import logo from "../../images/logo-letters.png"
+import speakerimage from "../../images/nature-1.jpg"
 
 const MultipleSpeaker = () => {
     return (
-        <section className="multiplespeaker" id="multiplespeaker">
+        <section className="multipleSpeaker" id="multipleSpeaker">
             <div className="container">
                 <Row>
                     <Col lg={24} xs={24}>
